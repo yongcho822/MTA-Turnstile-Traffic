@@ -45,8 +45,3 @@ with open("Station_Totals.csv", "r") as total, open("nycturnstiles/geocoded.csv"
         #print count - 463 stations
 print 'Done here.'
 
-
-# In[ ]:
-
-
-
