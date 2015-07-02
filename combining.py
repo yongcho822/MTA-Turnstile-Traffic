@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[35]:
+# In[37]:
 
 import csv
 from operator import itemgetter
@@ -42,7 +42,11 @@ with open("Station_Totals.csv", "r") as total, open("nycturnstiles/geocoded.csv"
                 combined_dict["Lat"] = geocode_dict[station_name][0]
                 combined_dict["Lng"] = geocode_dict[station_name][1]
                 writer.writerow(combined_dict)
-        #print count - 384 matches
-
+        #print count - 463 stations
 print 'Done here.'
+
+
+# In[ ]:
+
+
 
